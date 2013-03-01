@@ -1,0 +1,20 @@
+Jest to oprogramowanie s³u¿¹ce do œledzenia zmian g³ównie w kodzie Ÿród³owym oraz pomocy programistom w ³¹czeniu zmian dokonanych przez wiele osób w ró¿nych momentach.
+okreœla sposób przep³ywu informacji pomiêdzy rozmaitymi obiektami bior¹cymi udzia³ w jej przetwarzaniu. W wê¿szym sensie jest to okreœlenie sposobu przep³ywu dokumentów pomiêdzy pracownikami wykonuj¹cymi pewien zalgorytmizowany zespó³ czynnoœci.
+Scentralizowane oparte sa na architekturze klient-serwer, a rozproszone sa oparte na architekturze P2P.W tych pierwszych istnieje jedno centralne repozytorium, z którym wszyscy u¿ytkownicy systemu synchronizuj¹ swoje zmiany, a te drugie pozwalaj¹ na prowadzenie równoprawnych, niezale¿nych ga³êzi, które mo¿na dowolnie synchronizowaæ ze sob¹ nawzajem, np. poprzez e-mail (Code Co-op). Wybór odpowiedniego typu systemu kontroli wersji zale¿y od potrzeb projektu.
+ init -zainicjalizowaæ puste repozytorium. Dziêki temu zostanie stworzony ukryty folder o nazwie .git, zawieraj¹cy ca³¹ historiê zmian naszego projektu.
+ clone - klonowanie istniejacego repozytorium
+ add - dodajemy pliki
+ status - sprawdzamy status
+ diff - zmiany w repozytorium
+ commit - zatwierdzanie zmian. Tym poleceniem zapiszemy aktualny stan naszego projektu.
+ reset - usuwanie plikow z poczekalni
+ rm - usuwa pliki z katalogu roboczego
+ mv - sluzy ono do zmiany pliku w repozytorium
+ branch - tworzenie nowej galezi kodu
+ checkout - mozna przelaczac sie pomiedzy roznymi galzeiami kodu (ktore stowrzylismy za pomoca polecenia branch)
+ merge - laczy obie galezie rozwiazujac proste konflikty
+ log - sluzy do przerjrzenia historii zmian dokonanych w naszym projekcie
+ stash - jest to schowek do ktorego mozemy wrzucac aktualne zmiany
+ pull - pobiera dane z serwera na bazie którego oryginalnie stworzono repozytorium i próbuje automatycznie scaliæ zmiany z kodem roboczym nad którym aktualnie, lokalnie sie pracuje.
+ push - wypychanie zmian na zewnatrz
+ diff - zmiany w repozytorium
